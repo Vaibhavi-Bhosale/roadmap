@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    background: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 6px solid #B7B1F2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: hotpink;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Highlight projects */
+.project {
+    background: #FBF3B9;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 6px solid #FFDCCC;
+    font-weight: bold;
+}
+
+/* Progress Bar */
+.progress-container {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin: 20px 0;
+    position: relative;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #007bff;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+#progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    top: 2px;
+    color: black;
+}
