@@ -1,6 +1,6 @@
 const roadmap = [
     {
-        section: "Section I: JavaScript Fundamentals through CLI Apps",
+        section: "Section I: JavaScript Fundamentals",
         duration: "10-15 Days",
         topics: [
             "Basics: Variables, Data Types, Loops, Conditional Statements.",
